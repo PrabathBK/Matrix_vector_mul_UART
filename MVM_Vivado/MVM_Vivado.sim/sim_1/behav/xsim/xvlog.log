@@ -1,2 +1,16 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DVCON/VHDL/RTL_Quartus/Matrix_vector_mul_UART/MVM_Vivado/MVM_Vivado.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/DVCON/VHDL/RTL_Quartus/PROJECTMVM/axis_matvec_mul.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axis_matvec_mul
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/DVCON/VHDL/RTL_Quartus/PROJECTMVM/matvec_mul.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matvec_mul
+WARNING: [VRFC 10-3380] identifier 'W_Y' is used before its declaration [D:/DVCON/VHDL/RTL_Quartus/PROJECTMVM/matvec_mul.sv:8]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/DVCON/VHDL/RTL_Quartus/PROJECTMVM/mvm_uart_system.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mvm_uart_system
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/DVCON/VHDL/RTL_Quartus/PROJECTMVM/skid_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module skid_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/DVCON/VHDL/RTL_Quartus/PROJECTMVM/uart_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/DVCON/VHDL/RTL_Quartus/PROJECTMVM/uart_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+WARNING: [VRFC 10-3380] identifier 'NUM_WORDS' is used before its declaration [D:/DVCON/VHDL/RTL_Quartus/PROJECTMVM/uart_tx.sv:9]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/DVCON/VHDL/RTL_Quartus/PROJECTMVM/mvm_uart_system_custom_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mvm_uart_system_tb

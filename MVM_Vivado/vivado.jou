@@ -19,3 +19,21 @@ open_wave_config D:/DVCON/VHDL/RTL_Quartus/Matrix_vector_mul_UART/MVM_Vivado/mvm
 source mvm_uart_system_tb.tcl
 run 10 us
 close_sim
+launch_simulation
+open_wave_config D:/DVCON/VHDL/RTL_Quartus/Matrix_vector_mul_UART/MVM_Vivado/mvm_uart_system_tb_behav.wcfg
+source mvm_uart_system_tb.tcl
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
