@@ -2,3 +2,6 @@ Running: xsim.dir/mvm_uart_system_tb_behav/xsimk.exe -simmode gui -wdb mvm_uart_
 Design successfully loaded
 Design Loading Memory Usage: 8048 KB (Peak: 8048 KB)
 Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 10844 KB (Peak: 10844 KB)
+Simulation CPU Usage: 78 ms
