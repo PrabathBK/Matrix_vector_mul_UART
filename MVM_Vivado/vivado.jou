@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Jun 11 15:43:32 2024
+# Process ID: 21212
+# Current directory: D:/DVCON/VHDL/RTL_Quartus/Matrix_vector_mul_UART/MVM_Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15688 D:\DVCON\VHDL\RTL_Quartus\Matrix_vector_mul_UART\MVM_Vivado\MVM_Vivado.xpr
+# Log file: D:/DVCON/VHDL/RTL_Quartus/Matrix_vector_mul_UART/MVM_Vivado/vivado.log
+# Journal file: D:/DVCON/VHDL/RTL_Quartus/Matrix_vector_mul_UART/MVM_Vivado\vivado.jou
+# Running On: DESKTOP-O5V534O, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 16866 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/DVCON/VHDL/RTL_Quartus/Matrix_vector_mul_UART/MVM_Vivado/MVM_Vivado.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config D:/DVCON/VHDL/RTL_Quartus/Matrix_vector_mul_UART/MVM_Vivado/mvm_uart_system_tb_behav.wcfg
+source mvm_uart_system_tb.tcl
+run 10 us
+close_sim

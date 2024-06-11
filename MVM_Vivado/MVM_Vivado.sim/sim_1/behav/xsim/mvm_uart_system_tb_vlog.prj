@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../../PROJECTMVM/axis_matvec_mul.sv" \
+"../../../../../../PROJECTMVM/matvec_mul.sv" \
+"../../../../../../PROJECTMVM/mvm_uart_system.sv" \
+"../../../../../../PROJECTMVM/skid_buffer.sv" \
+"../../../../../../PROJECTMVM/uart_rx.sv" \
+"../../../../../../PROJECTMVM/uart_tx.sv" \
+"../../../../../../PROJECTMVM/mvm_uart_system_custom_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
