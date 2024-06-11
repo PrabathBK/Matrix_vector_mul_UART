@@ -383,3 +383,7 @@ run 10 us
 run 10 us
 run 10 us
 run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 11 16:21:44 2024...
