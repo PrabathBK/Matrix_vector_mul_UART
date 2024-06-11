@@ -4,6 +4,9 @@ This project implements a Matrix Vector Multiplier (MVM) on an FPGA, which is co
 
 ## Overview
 
+<img src="https://github.com/PrabathBK/Matrix_vector_mul_UART/blob/main/block_diagram.png?raw=true" alt="Block Design" width="600" height="300">
+
+
 The project utilizes UART (Universal Asynchronous Receiver-Transmitter) as the data communication protocol to transfer data from a PC to the FPGA in serial communication. Subsequently, the UART_RX module converts this serial data into a parallel AXI (Advanced eXtensible Interface) stream and forwards it to the MatVec Mul module through the AXI stream.
 
 In the MatVec Mul module, the multiplication operation is performed. A Skid Buffer module is employed to control the flow without congestion, ensuring efficient data handling. The processed data is then transmitted to the TX module and converted back into a serial stream. Finally, the results can be observed on a PC.
