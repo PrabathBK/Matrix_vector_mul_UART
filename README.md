@@ -20,15 +20,8 @@ input matrix and vector</br>
 <img src="https://github.com/PrabathBK/Matrix_vector_mul_UART/blob/main/results/input.png?raw=true" alt="Input" width="600" height="350">
 
 Simulation output</br>
-<img src="https://github.com/PrabathBK/Matrix_vector_mul_UART/blob/main/results/8x8_sim.png?raw=true" alt="Simulation Output" width="900" height="350">
+<img src="https://github.com/PrabathBK/Matrix_vector_mul_UART/blob/main/results/8x8_sim.png?raw=true" alt="Simulation Output" width="2000" height="350">
 
 Verify by a calculator</br>
-<img src="https://github.com/PrabathBK/Matrix_vector_mul_UART/blob/main/results/8x8_cal.png?raw=true" alt="Verification" width="600" height="350">
-
-
-
-
-## License
-
-[Insert license information here]
+<img src="https://github.com/PrabathBK/Matrix_vector_mul_UART/blob/main/results/8x8_cal.png?raw=true" alt="Verification" width="500" height="300">
 
